@@ -12,7 +12,7 @@ Current available filters are:
   - **Edges**: In image processing AI, edge detection is vital for finding object boundaries. The Sobel operator, applied in both horizontal and vertical directions, calculates new pixel values by emphasizing color differences in a 3x3 pixel grid. The final edge value is computed as the square root of the sum of squared Gx and Gy values, rounded to the nearest integer (capped at 255). For edge pixels, assume a 1-pixel black border, treating out-of-bounds access as solid black (0 values).
 
 ## Usage ##
-1. Comple the program as per the bellow bash command:
+1. Compile the program as per the bellow bash command:
    ```
    make filter
    ```
